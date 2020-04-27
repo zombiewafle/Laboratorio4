@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Laboratorio4</string>
+    <string name="about">about</string>
+    <string name="name">name</string>
+    <string name="phone">phone</string>
+    <string name="description">description</string>
+    <string name="home">home</string>
+    <string name="start">Start</string>
+    <string name="txtHeader">Zvent Organizing App\nsupport@zvent.com</string>
+    <string name="deny_invitation">Deny Invitation</string>
+    <string name="confirm_invitation">Confirm Invitation</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

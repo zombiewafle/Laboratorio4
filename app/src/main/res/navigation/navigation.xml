@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.laboratorio4.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/home_To_List"
+            app:destination="@id/ListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_btnCheckConfirmation"
+            app:destination="@id/btnCheckConfirmation" />
+    </fragment>
+    <fragment
+        android:id="@+id/btnCheckConfirmation"
+        android:name="com.example.laboratorio4.AboutFragment"
+        android:label="@string/about" />
+
+
+    <fragment
+        android:id="@+id/ListFragment"
+        android:name="com.example.laboratorio4.listFragment"
+        android:label="listFragment" />
+</navigation>
