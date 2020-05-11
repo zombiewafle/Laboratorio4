@@ -5,6 +5,12 @@
         android:id="@+id/homeFragment"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/home" />
+
+    <item
+        android:id ="+id/GuestsFragmnet"
+        android:icon ="@drawable/ic_person_black_24dp"
+        android:title ="Guests"/>
+
     <item
         android:id="@+id/infoFragment"
         android:icon="@drawable/ic_info_outline_black_24dp"

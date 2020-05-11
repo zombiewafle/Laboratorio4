@@ -1,4 +1,4 @@
-package com.example.laboratorio4
+package com.example.laboratorio4.NormalFragments
 
 import com.example.laboratorio4.databinding.FragmentListBinding
 import android.os.Bundle
@@ -6,6 +6,8 @@ import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
+import com.example.laboratorio4.R
+import com.example.laboratorio4.User
 
 import kotlinx.android.synthetic.main.fragment_list.*
 
@@ -17,10 +19,12 @@ class listFragment : Fragment() {
 
 
 
-    private val invitedPeople: MutableList<User> = mutableListOf(
-        User(name = "Javier Salazar", phoneNumber = "12345678", email = "correo@gmail.com"),
-        User(name = "Karla De León", phoneNumber = "12345678", email = "correo@gmail.com"),
-        User(name = "Rodrigo García", phoneNumber = "12345678", email = "correo@gmail.com")
+    public val invitedPeople: MutableList<User> = mutableListOf(
+        User(
+            name = "Javier Salazar",
+            phoneNumber = "12345678",
+            email = "correo@gmail.com"
+        )
     )
 
     lateinit var actualInvitedPerson: User
@@ -33,7 +37,8 @@ class listFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?): View? {
 
-        val binding = DataBindingUtil.inflate<FragmentListBinding>(inflater, R.layout.fragment_list, container, false)
+        val binding = DataBindingUtil.inflate<FragmentListBinding>(inflater,
+            R.layout.fragment_list, container, false)
         binding.user = user
 
         binding.apply {
@@ -44,7 +49,7 @@ class listFragment : Fragment() {
         }
 
 
-        if(person == 3){
+        if(person in 0..20){
 
         }
         setHasOptionsMenu(true)
@@ -64,7 +69,7 @@ class listFragment : Fragment() {
         person += 1
         when(item.itemId){
             R.id.check_button -> {
-                if(person < 3){
+                if(person in 3..20){
                     txtnameView.text = invitedPeople[person].name
                     txtPhoneView.text = "Phone Numer: " + invitedPeople[person].phoneNumber
                     txtEmailView.text = "Email: " + invitedPeople[person].email
@@ -77,7 +82,7 @@ class listFragment : Fragment() {
 
 
             R.id.deny_button -> {
-                if(person < 3){
+                if(person in 3..20){
                     txtnameView.text = invitedPeople[person].name
                     txtPhoneView.text = "Phone Numer: " + invitedPeople[person].phoneNumber
                     txtEmailView.text = "Email: " + invitedPeople[person].email

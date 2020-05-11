@@ -10,6 +10,9 @@
     <string name="deny_invitation">Deny Invitation</string>
     <string name="confirm_invitation">Confirm Invitation</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ingrese_el_correo_eletr_nico">Ingrese el correo eletrónico</string>
+    <string name="ingrese_el_nombre">Ingrese el nombre</string>
+    <string name="ingrese_el_tel_fono">Ingrese el teléfono</string>
 </resources>
