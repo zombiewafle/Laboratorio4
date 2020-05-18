@@ -12,6 +12,11 @@
         android:title ="Guests"/>
 
     <item
+        android:id ="íd/RoleFragment"
+        android:icon ="@drawable/ic_description_black_24dp"
+        android:title ="Role"/>
+
+    <item
         android:id="@+id/infoFragment"
         android:icon="@drawable/ic_info_outline_black_24dp"
         android:title="@string/about" />

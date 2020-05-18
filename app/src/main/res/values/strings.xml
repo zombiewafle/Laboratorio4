@@ -14,5 +14,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="ingrese_el_correo_eletr_nico">Ingrese el correo eletrónico</string>
     <string name="ingrese_el_nombre">Ingrese el nombre</string>
+    <string name="seleccione_el_rol">Seleccione el rol</string>
     <string name="ingrese_el_tel_fono">Ingrese el teléfono</string>
+    <string name="seleccione_el_rol1">Seleccione el rol</string>
+    <string name="porfavor_seleccione_el_rol">Seleccione un rol por favor</string>
 </resources>
