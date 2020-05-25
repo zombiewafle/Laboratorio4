@@ -18,4 +18,9 @@
     <string name="ingrese_el_tel_fono">Ingrese el teléfono</string>
     <string name="seleccione_el_rol1">Seleccione el rol</string>
     <string name="porfavor_seleccione_el_rol">Seleccione un rol por favor</string>
+    <string name="registrar">Registro</string>
+    <string name="guests">Invitados</string>
+    <string name="registrados">Registrados</string>
+    <string name="restart">Reiniciar</string>
+    <string name="ver">Ver Invitados</string>
 </resources>

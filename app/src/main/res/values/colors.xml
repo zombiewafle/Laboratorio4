@@ -5,4 +5,5 @@
     <color name="colorAccent">#DACC03</color>
     <color name="whiteColor">#ffffff</color>
     <color name="backGround">#FFE57F</color>
+    <color name="button_color">#FF9800</color>
 </resources>

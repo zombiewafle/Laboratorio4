@@ -20,7 +20,7 @@ class HomeFragment : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentHomeBinding>(inflater,
             R.layout.fragment_home, container, false)
         binding.btnStart.setOnClickListener{ v:View ->
-            v.findNavController().navigate(R.id.action_homeFragment_to_ListFragment)
+            v.findNavController().navigate(R.id.action_homeFragment_to_listFragment)
         }
         setHasOptionsMenu(true)
         return binding.root

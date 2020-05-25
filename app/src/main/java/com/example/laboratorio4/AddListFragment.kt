@@ -7,23 +7,23 @@ import com.example.laboratorio4.util
 
 class AddListFragment: ViewModel(){
 
-    private val email = MutableLiveData<String>()
-    private val phonenumber = MutableLiveData<String>()
-    private val registered = MutableLiveData<Int>()
-    private val guests = MutableLiveData<Int>()
-    private val index = MutableLiveData<Int>()
-    private val name = MutableLiveData<String>()
-    private val nameList: MutableLiveData<String> by lazy{
+     val email = MutableLiveData<String>()
+     val phonenumber = MutableLiveData<String>()
+     val registered = MutableLiveData<Int>()
+     val guests = MutableLiveData<Int>()
+     val index = MutableLiveData<Int>()
+     val name = MutableLiveData<String>()
+     val nameList: MutableLiveData<String> by lazy{
         MutableLiveData<String>()
     }
-    private val rolelist: MutableLiveData<String> by lazy{
+     val rolelist: MutableLiveData<String> by lazy{
         MutableLiveData<String>()
     }
-    private val people1 = MutableLiveData<MutableList<User>>()
+     val people1 = MutableLiveData<MutableList<User>>()
 
 
-    private var listSize = 0
-    private var people: MutableList<User>
+     var listSize = 0
+     var people: MutableList<User>
 
 
     init{

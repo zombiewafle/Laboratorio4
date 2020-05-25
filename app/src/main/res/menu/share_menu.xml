@@ -3,10 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/save_button"
-        android:title="@string/deny_invitation"
+        android:id="@+id/share_button"
+        android:title = "Share"
         app:showAsAction="ifRoom"
-        android:icon="@drawable/ic_save_black_24dp"
-        />
-
+        android:icon="@drawable/ic_share_black_24dp" />
 </menu>

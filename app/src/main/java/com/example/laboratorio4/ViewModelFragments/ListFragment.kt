@@ -90,7 +90,7 @@ class ListFragment : Fragment() {
             }
 
 
-            R.id.deny_button -> {
+            R.id.save_button -> {
                 if(person in 3..20){
                     txtName.text = invitedPeople[person].name
                     txtPhoneNumber.text = "Phone Numer: " + invitedPeople[person].phoneNumber
